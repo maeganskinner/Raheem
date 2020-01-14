@@ -47,9 +47,6 @@ export default class About extends Component {
                     </span>
 
                     <br></br>
-                    <span>{raheemData.website}</span>
-
-                    <br></br>
                     <span>{raheemData.email}</span>
 
                     <br></br>

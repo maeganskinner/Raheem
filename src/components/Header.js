@@ -21,31 +21,30 @@ export default class Header extends Component {
           <a className="mobile-btn" href="/#" title="Hide navigation">Hide navigation</a>
 
             <ul id="nav" className="nav">
-               <li className="current"><a  href="#home">Home</a></li>
-               <li><a  href="#about"> About  </a></li>
-             <li><a  href="#resume"> Resume </a></li>
-               <li><a  href="#portfolio"> Music </a></li>
-               <li><a  href="#testimonials"> Reviews </a></li>
-               <li><a  href="#contact"> Contact </a></li>
+               <li className="current"><a  href="#home">HOME</a></li>
+               <li><a  href="#about"> ABOUT  </a></li>
+               <li><a  href="#portfolio"> MUSIC </a></li>
+               
+               
             </ul>
 
          </nav>
 
          <div className="row banner">
             <div className="banner-text">
-               <h1> 
+               <h1> {raheemData.name} </h1>
                
+               <h2>
+                  {raheemData.role}
+               </h2>
 
-                {raheemData.name}.</h1>
-               
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {raheemData.role}{raheemData.roleDescription}
+               <br></br>
+               <h3>
+                  {raheemData.roleDescription}
                </h3>
-               <hr/>
-
-
                
-
-
+               
+               <hr/>
 
 
             </div>

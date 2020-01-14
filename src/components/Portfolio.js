@@ -4,7 +4,8 @@ import React, { Component } from 'react';
 export default class Portfolio extends Component {
 
   render() {
-    let raheemData = this.props.raheemData;
+    
+    
 
     return (
 
@@ -12,28 +13,9 @@ export default class Portfolio extends Component {
       
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1> Music Videos </h1>
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-          {
-            raheemData.portfolio && raheemData.portfolio.map((item)=>{
-              return(
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-01">
-                      <img src={`${item.imgurl}`} className="item-img" alt="something"/>
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>{item.name}</h5>
-                          <p>{item.description}</p>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              )
-            })
-          }
-          </div>
+
+          <h1> Albums and Music Videos </h1>
+
         </div>
       </div>
   </section>
@@ -41,3 +23,74 @@ export default class Portfolio extends Component {
   }
   
 }
+
+
+// ALBUMS 
+
+var obj = {"video": {
+  "value": "<iframe title='YouTube video player' type=\"text/html\" width='640' height='390' src='https://www.youtube.com/embed/4bHvywMUkDg' frameborder='0' allowFullScreen> </iframe>"
+}}
+document.write(obj.video.value);
+
+
+var obj = {"video": {
+  "value": "<iframe title='YouTube video player' type=\"text/html\" width='640' height='390' src='https://www.youtube.com/embed/ql5deusaG3s' frameborder='0' allowFullScreen> </iframe>"
+}}
+document.write(obj.video.value);
+
+
+
+
+//MUSIC VIDEOS
+
+var obj = {"video": {
+  "value": "<iframe title='YouTube video player' type=\"text/html\" width='640' height='390' src='https://www.youtube.com/embed/q49NiFSehPM' frameborder='0' allowFullScreen> </iframe>"
+}}
+document.write(obj.video.value);
+
+var obj = {"video": {
+  "value": "<iframe title='YouTube video player' type=\"text/html\" width='640' height='390' src='https://www.youtube.com/embed/CjngZfyALNI' frameborder='0' allowFullScreen> </iframe>"
+}}
+document.write(obj.video.value);
+
+var obj = {"video": {
+  "value": "<iframe title='YouTube video player' type=\"text/html\" width='640' height='390' src='https://www.youtube.com/embed/UcIr7ODIfJM' frameborder='0' allowFullScreen> </iframe>"
+}}
+document.write(obj.video.value);
+
+var obj = {"video": {
+  "value": "<iframe title='YouTube video player' type=\"text/html\" width='640' height='390' src='https://www.youtube.com/embed/QO7xK_ztpZg' frameborder='0' allowFullScreen> </iframe>"
+}}
+document.write(obj.video.value);
+
+var obj = {"video": {
+  "value": "<iframe title='YouTube video player' type=\"text/html\" width='640' height='390' src='https://www.youtube.com/embed/WB7Ja8QPNbo' frameborder='0' allowFullScreen> </iframe>"
+}}
+document.write(obj.video.value);
+
+
+var obj = {"video": {
+  "value": "<iframe title='YouTube video player' type=\"text/html\" width='640' height='390' src='https://www.youtube.com/embed/-kXPWr7iAsQ' frameborder='0' allowFullScreen> </iframe>"
+}}
+document.write(obj.video.value);
+
+
+var obj = {"video": {
+  "value": "<iframe title='YouTube video player' type=\"text/html\" width='640' height='390' src='https://www.youtube.com/embed/JLaPxlYKiJ8' frameborder='0' allowFullScreen> </iframe>"
+}}
+document.write(obj.video.value);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
