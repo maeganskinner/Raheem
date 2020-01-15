@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 export default class Testimonials extends Component {
 
   render() {
-    let raheemData = this.props.raheemData;
+    
     
     return (
       <section id="testimonials">
